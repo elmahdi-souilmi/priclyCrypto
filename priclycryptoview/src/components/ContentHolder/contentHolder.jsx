@@ -12,7 +12,7 @@ export default function contentHolder() {
         <Row>
             <Col xs={7} className="main" >
             <p className="description1"> Get notified when a coin goes above or below a price target. </p>
-            <p className="description2"> Send me an email <input className="emailInput" type="email" placeholder="email" /> as soon as  
+            <p className="description2"> Send me an email <input className="emailInput" type="Email" placeholder="email" /> as soon as  
             <br> 
             </br><select>
              <option> BTC</option> 
@@ -22,11 +22,11 @@ export default function contentHolder() {
              </select>
                goes
             <select>
-             <option> above</option> 
-             <option> below</option> 
+             <option> Above</option> 
+             <option> Below</option> 
              </select>
                 the price of 
-             <input className="valueInput" type="number" placeholder="00.00" /> $
+             <input className="valueInput" type="text" placeholder="00.00 $" /> 
              </p>
              <Button className="button" variant="primary"> <FaBell  /> Set Alert</Button>
             </Col>

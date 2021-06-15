@@ -1,6 +1,4 @@
-* {
 
-}
 .description1 { 
    font-family: 'Avenir Next';
    font-style: normal;
@@ -31,24 +29,47 @@
 }
 .valueInput {
 
-   margin-left:2%; 
-   width:18%;
-   height: 45%;
-   border-radius: 10%;
+         width: 18%;
+         height: 25px;
+         padding: 15px;
+         margin-left:2%;
+         margin-top:10px;
+         border: none;
+         border:solid 1px #ccc;
+         border-radius: 5px;
 }
 .emailInput {
-      margin-left:2%;
-      width:25%;
+
+      width:30%;
       height: 40%;
-      border-radius: 8%;
+      padding: 10px;
+      margin-left:1%;
+      margin-top:10px;
+      border: none;
+      border:solid 1px #ccc;
+      border-radius: 5px;
 }
 select {
-   margin: 1%;
+        font-size: 15px;
+        width:15%;
+        height: 70%;
+        padding:10px;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top:10px;
+        border: none;
+        border:solid 1px #ccc;
+        border-radius: 5px;
+}
+option {
+   font-size: 12px;
 }
 .button {
+background-color:#316EEA !important;
   display: block;
-  margin-left: 25%;
+  margin-left: 40%;
   margin-right: auto;
+  border-radius: 6px;
 
 }
 .main {
