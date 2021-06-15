@@ -1,0 +1,11 @@
+.left {
+    color: #6E7191 !important;
+    font-weight: 600;
+    padding-left: 50px !important;
+    /* margin-right: 15%; */
+}
+
+.active {
+    color: #0C5DF7 !important;
+    font-weight: 600;
+}
